@@ -8,3 +8,21 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row.no-gutters > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}

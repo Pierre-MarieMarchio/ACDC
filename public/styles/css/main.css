@@ -11844,5 +11844,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.row.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutters > [class*=col-] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
