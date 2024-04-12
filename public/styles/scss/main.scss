@@ -1,28 +1,52 @@
-// default variable overrides 
-
+// default variable overrides
 
 // Bootstrap
-
-
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-
-.row.no-gutters {
-    margin-left: 0;
-    margin-right: 0;
+body {
+  color: white;
 }
 
-.row.no-gutters > [class*='col-'] {
-    padding-left: 0;
-    padding-right: 0;
+.c-bg-color {
+  background-color: black !important;
+}
+
+.row.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutters > [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .img-fluid {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0;
+  width: 100%;
+  height: auto;
+  max-height: 18rem;
+  display: block;
+  margin: 0;
+}
+
+.btn {
+  background-color: red;
+  border: none;
+}
+
+.tr {
+  color: red !important;
+}
+
+.fnt-hardRock {
+  font-family: the dark;
+}
+
+.custom-toggler {
+ 
+   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
 }

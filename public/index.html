@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="./styles/css/normilize.css" />
   </head>
 
-  <body class="bg-secondary">
+  <body class="c-bg-color">
     <header class="row">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary px-2 col-7">
+      <nav class="navbar navbar-expand-lg  px-2 col-4 col-md-7 bg-dark ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand text-white fnt-hardRock" href="#">AC/DC</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -24,21 +24,24 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon custom-toggler"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-danger fnt-hardRock" aria-current="page" href="#">Acceuil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link text-danger fnt-hardRock" href="#">Membres</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link text-danger fnt-hardRock" href="#">Discographie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link text-danger fnt-hardRock" aria-disabled="true">Agenda des concerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger fnt-hardRock" aria-disabled="true">Contact</a>
               </li>
             </ul>
           </div>
@@ -103,34 +106,318 @@
         </div>
       </section>
 
-      <div class="row no-gutters">
-        <section class="container-fluid my-3 p-2">
-          <h2 class="text-center">AC/DC Les membres du Groupe</h2>
-      
-          <div class="row no-gutters justify-content-center">
-              <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
-                  <img class="img-fluid border border-5 rounded-1 " src="./assets/img/angus-young.png" alt="" srcset="">
-              </div>
-              <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
-                  <img class="img-fluid border border-5 rounded-1" src="./assets/img/angus-young.png" alt="" srcset="">
-              </div>
-              <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
-                  <img class="img-fluid border border-5 rounded-1" src="./assets/img/angus-young.png" alt="" srcset="">
-              </div>
-              <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
-                  <img class="img-fluid border border-5 rounded-1" src="./assets/img/angus-young.png" alt="" srcset="">
-              </div>
-              <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
-                  <img class="img-fluid border border-5 rounded-1" src="./assets/img/angus-young.png" alt="" srcset="">
-              </div>
+      <section class="container-fluid my-3 p-2">
+        <h2 class="text-center fnt-hardRock">AC/DC -- Les membres du Groupe --</h2>
+
+        <div class="row no-gutters justify-content-center">
+          <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
+            <img class="img-fluid border border-5 rounded-1" src="./assets/img/angus-young.png" alt="" srcset="" />
           </div>
+          <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
+            <img class="img-fluid border border-5 rounded-1" src="./assets/img/brian-johnson.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
+            <img class="img-fluid border border-5 rounded-1" src="./assets/img/chris-slade.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
+            <img class="img-fluid border border-5 rounded-1" src="./assets/img/cliff-williams.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 col-lg-2 p-1">
+            <img class="img-fluid border border-5 rounded-1" src="./assets/img/steve-young.png" alt="" srcset="" />
+          </div>
+        </div>
       </section>
-    </div>
-</section>
-    
+
+      <section class="container my-3 p-2">
+        <h2 class="text-center fnt-hardRock">AC/DC -- La Discographie --</h2>
+
+        <div class="row mt-5">
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Back-in-black-1980.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1980 : Black in Black</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Ballbreaker-1995.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1995 : Ballbreaker</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Black-ice-2008.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">2008 : Black-ice</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Blow-up-your-video-1988.jpg" class="card-img-top" alt="..." />
+              <div class="card-body"> 
+                <h5 class="card-title text-center text-danger">1988 : Blow up your video</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/High-voltage-1975.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1975 : High voltage</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Highway-to-hell-1979.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1979 : Highway to hell</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Power-up-2020.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">2020 : Power up</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Razor-edge-1990.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1990 : Razor edge</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Rock-or-Bust-2014.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">2014 : Rock or Bust</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Stiff-upper-lip-2000.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">2000 : Stiff uper lip 2000</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Who-made-who-1986.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1986 : Who made who</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card m-2 px-3">
+              <img src="./assets/img/Discographie/Ballbreaker-1995.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">1995 : Ballbreaker</h5>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis itaque ipsam
+                  voluptatum laudantium aperiam sequi incidunt provident fugit iste, cupiditate soluta iure dolorem
+                  deserunt ullam libero nostrum illum rerum.
+                </p>
+                <a href="#" class="btn btn-primary fnt-hardRock">Lire plus...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid row justify-content-center">
+        <h2 class="text-center my-4 fnt-hardRock text-danger">AC/DC -- Les Dates des concerts --</h2>
+
+        <div class="col-10">
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th class="text-danger" scope="col">Date</th>
+                <th class="text-danger" scope="col">Heure</th>
+                <th class="text-danger" scope="col">Salle</th>
+                <th class="text-danger" scope="col">Ville</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">08/06/2000</th>
+                <td>21:00</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+              </tr>
+              <tr>
+                <th scope="row">12/05/2002</th>
+                <td>21:00</td>
+                <td>Esplanade</td>
+                <td>Singapour</td>
+              </tr>
+              <tr>
+                <th scope="row">18/09/2009</th>
+                <td>20:30</td>
+                <td>Opera</td>
+                <td>Sydney</td>
+              </tr>
+              <tr>
+                <th scope="row">12/09/2021</th>
+                <td>20:30</td>
+                <td>Massey Hall</td>
+                <td>Toronto</td>
+              </tr>
+              <tr>
+                <th scope="row">12/09/2022</th>
+                <td>20:30</td>
+                <td>Madison Square Garden</td>
+                <td>New York</td>
+              </tr>
+              <tr>
+                <th scope="row">08/06/2023</th>
+                <td>21:30</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="container p-2">
+        <h2 class="text-center fnt-hardRock">AC/DC -- Contact --</h2>
+        <div class="rectangle1"></div>
+        <div class="zebrure"></div>
+
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <form>
+              <fieldset>
+                <div class="row">
+                  <div class="mb-3 col-6">
+                    <input type="text" id="nomTextInput" class="form-control" placeholder="Nom" />
+                  </div>
+                  <div class="mb-3 col-6">
+                    <input type="text" id="prenomTextInput" class="form-control" placeholder="Prenom" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="mb-3 col-12">
+                    <input type="text" id="emailTextInput" class="form-control" placeholder="Email" />
+                  </div>
+                  <div class="mb-3 col-12">
+                    <textarea id="messageTextInput" class="form-control" placeholder="Votre message"></textarea>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary fnt-hardRock">Envoyé</button>
+                  <button type="submit" class="btn btn-primary fnt-hardRock">Annuler</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
